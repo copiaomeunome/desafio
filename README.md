@@ -7,7 +7,8 @@
 # Principais dúvidas e divergências
 
 - As funcionalidades do audio não estavam funcionando no React, portanto deixei os controles de áudio padrões
-- Mesmo mudando o atributo src do áudio da página, o elemento não muda, não achei nada sobre esse tipo de ocorrência
+- Mesmo mudando o atributo src do áudio da página, o elemento não muda, não achei nada sobre esse tipo de ocorrência, mas os botões de next e previous continuam funcionando para os outros elementos
+- O botão de shuffle e repeat não foi programado e o de play apenas muda a imagem
 
 # instruções para visualização do projeto abaixo
 
