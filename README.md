@@ -1,3 +1,16 @@
+![image](https://user-images.githubusercontent.com/86266348/168650970-2fefe8e1-9f1d-41d3-be6b-1f2ef69616e3.png)
+# Tecnologias
+
+- React
+- TypeScript
+
+# Principais dúvidas e divergências
+
+- As funcionalidades do audio não estavam funcionando no React, portanto deixei os controles de áudio padrões
+- Mesmo mudando o atributo src do áudio da página, o elemento não muda, não achei nada sobre esse tipo de ocorrência
+
+# instruções para visualização do projeto abaixo
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -33,6 +46,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
+
+
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
@@ -44,3 +59,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
