@@ -1,0 +1,101 @@
+#currentPlaying{
+    position:fixed;
+    color:#FFF;
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    top:5%;
+    left:75%;
+    right:5%;
+    
+    .playingClassShow{
+        h2{
+            max-height:30px;
+            overflow:hidden;
+        }
+        img{
+            box-sizing: border-box;
+            width: 296px;
+            height: 260px;
+            top: 187px;
+            border-radius: 24px;
+        }
+        p{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: #DCCDFF;
+        }
+    }
+    .playingClassHide{
+        display:none;
+    }
+    .noPlayingHide{
+        display:none;
+    }
+    .noPlayingShow{
+        box-sizing: border-box;
+        width: 296px;
+        height: 346px;
+        top: 187px;
+        background: linear-gradient(143.8deg, rgba(145, 100, 250, 0.8) 0%, rgba(145, 100, 250, 0) 100%);
+        border: 1.5px dashed #9F75FF;
+        border-radius: 24px;
+        h2{
+            margin-top:45%;
+            margin-left:10px;
+            margin-right:10px;
+            font-family: 'Lexend';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+        }
+    }
+    button{
+        margin-top:15px;
+        height:30px;
+        background:#835afd;
+        padding: 0 10px;
+        width:64px;
+        height:64px;
+        border-radius:16px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        cursor:pointer;
+        border:0;
+        transition: filter 0.2s;
+        &:disabled{
+            opacity: 0.6;
+            cursor:not-allowed;
+        }
+    }
+    h2{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom:15px;
+    }
+    #buttons{
+        display:flex;
+    }
+    .playButton{
+        background:#9164FA;
+        width:64px;
+        height:64px;
+    }
+    .pauseButton{
+        background:#6F48C9;
+        width:64px;
+        height:64px;
+    }
+    
+}

@@ -1,0 +1,29 @@
+#header{
+    display:flex;
+    padding:40px 60px 40px;
+    background:#FFF;
+    text-align:center;
+    p{
+        margin-top:10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    #date{
+        right:0px;
+        margin-left:auto;
+    }
+    #logo{
+        &::after{
+            margin-left:33px;
+            content:'';
+            padding:10px 0;
+            height:200px;
+            flex:1;
+            border:1px solid #E6E8EB;
+            margin-right: 33px;
+        }
+    }
+}

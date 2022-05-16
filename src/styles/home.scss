@@ -1,0 +1,72 @@
+#home{
+    
+    overflow-x:hidden;
+    display:flex;
+    background:#E5E5E5;
+
+    h1{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+        color: #494D4B;
+        margin-top:32px;
+        margin-bottom:32px;
+    }
+    aside{
+        flex:4;
+        background:#835afd;
+    }
+    main{
+        flex:10;
+        overflow:hidden;
+    }
+    p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color:#808080;
+    }
+    #lastReleases{
+        margin-left:64px;
+        margin-right:64px;
+    }
+
+    #episodeParts{
+        margin-left:64px;
+    }
+    #episodeList{
+        height:100%;
+        width:100%;
+        margin:0px;
+        .duration,.dateRelease{
+            width:15vh;
+            text-align:center;
+        }
+        .members{
+            width:30vh;
+            text-align:center;
+        }
+        .episodeName{
+            width:40vh;
+            text-align:center;
+            h3{
+                margin-top:5px;
+                margin-left:5px;
+            }
+        }
+        h1{
+            margin-bottom:33px;
+            margin-left:64px;
+        }
+        div{
+            display:flex;
+            p{
+                width:25vh;
+            }
+        }
+    }
+}
